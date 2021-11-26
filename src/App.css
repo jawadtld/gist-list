@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+.main-content{
+  margin: 50px 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-textbox{
+  margin-bottom: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-card{
+  margin-bottom: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-card .card-content{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.list-card .card-descrtiption{
+  width: 100%;
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.badge-contain{
+  margin-top: 20px;
+}
+.forks-contain{
+  display: flex;
+}
+.fork-user{
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+.fork-user:last-child{
+  margin-right: 0;
+}
+.fork-user img{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+.username-text{
+  margin-left: 10px;
+  font-size: 13px;
+}
+.badge{
+  margin-right: 5px;
 }
